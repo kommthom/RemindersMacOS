@@ -1,0 +1,3026 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "?"
+          }
+        }
+      }
+    },
+    "%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        }
+      }
+    },
+    "%@/%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@/%@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@/%2$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        }
+      }
+    },
+    "⚠️" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "about.contact" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontaktiere mich"
+          }
+        }
+      }
+    },
+    "about.contribute" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zu Reminders Beitragen"
+          }
+        }
+      }
+    },
+    "about.contributor.service.github" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub"
+          }
+        }
+      }
+    },
+    "about.contributor.service.website" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Webseite"
+          }
+        }
+      }
+    },
+    "about.contributors" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anerkannte Mitwirkende"
+          }
+        }
+      }
+    },
+    "about.contributors.5.name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andrey Radchishin"
+          }
+        }
+      }
+    },
+    "about.contributors.5.purpose" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hat eine Möglichkeit hinzugefügt, zur Homebrew-Statusseite zurückzukehren"
+          }
+        }
+      }
+    },
+    "about.copyright" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "© 2023 David Bureš und Beitragende."
+          }
+        }
+      }
+    },
+    "about.packages" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwendete Pakete"
+          }
+        }
+      }
+    },
+    "about.packages.1.name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftyJSON"
+          }
+        }
+      }
+    },
+    "about.packages.1.purpose" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ch hasse das standardmäßige JSON-Parsing in Swift. Warum das Rad neu erfinden, wenn man es einfach mit einer Bibliothek erträglich machen kann?"
+          }
+        }
+      }
+    },
+    "about.packages.2.name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LaunchAtLogin"
+          }
+        }
+      }
+    },
+    "about.packages.2.purpose" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Paket, dass es ermöglicht Reminders beim Login zu starten"
+          }
+        }
+      }
+    },
+    "about.thanks" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Besonderen Dank"
+          }
+        }
+      }
+    },
+    "about.thanks.1.name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seb Jachec"
+          }
+        }
+      }
+    },
+    "about.thanks.1.purpose" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eine Funktion zum Erhalten von Echtzeitausgaben von Befehlen wurde implementiert, wodurch mehr als die Hälfte aller Funktionen in Cork viel schneller wurden"
+          }
+        }
+      }
+    },
+    "about.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über Reminders"
+          }
+        }
+      }
+    },
+    "about.version-%@-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@ (%@)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "about.version-%1$@-%2$@"
+          }
+        }
+      }
+    },
+    "action.cancel" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        }
+      }
+    },
+    "action.close" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        }
+      }
+    },
+    "action.hide" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verstecken"
+          }
+        }
+      }
+    },
+    "action.restart" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminders neu starten"
+          }
+        }
+      }
+    },
+    "action.show" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeigen"
+          }
+        }
+      }
+    },
+    "action.success" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erfolg"
+          }
+        }
+      }
+    },
+    "add-package.fatal-error-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Fehler ist bei der Installation von %@ aufgetreten"
+          }
+        }
+      }
+    },
+    "add-package.fatal-error.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versuche das Paket erneut zu installieren oder Reminders neu zu starten. Sollte das Problem weiterhin bestehen, versuche deinen Mac neu zu starten."
+          }
+        }
+      }
+    },
+    "add-package.fatal-error.generic" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Fehler ist während des Installationsprozesses aufgetreten"
+          }
+        }
+      }
+    },
+    "add-package.finished" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakete erfolgreich installiert"
+          }
+        }
+      }
+    },
+    "add-package.finished.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es wurden keine Fehler festgestellt"
+          }
+        }
+      }
+    },
+    "add-package.install.action" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installieren"
+          }
+        }
+      }
+    },
+    "add-package.install.downloading-cask-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade %@ herunter…"
+          }
+        }
+      }
+    },
+    "add-package.install.fetching-dependencies" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abhängigkeiten werden abgerufen…"
+          }
+        }
+      }
+    },
+    "add-package.install.finished" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertig"
+          }
+        }
+      }
+    },
+    "add-package.install.hide-details" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details ausblenden"
+          }
+        }
+      }
+    },
+    "add-package.install.installing-cask-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installiere %@…"
+          }
+        }
+      }
+    },
+    "add-package.install.installing-dependencies-%lld-of-%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installiere Abhängigkeit %lld/%lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "add-package.install.installing-dependencies-%1$lld-of-%2$lld"
+          }
+        }
+      }
+    },
+    "add-package.install.installing-package" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installiere Paket…"
+          }
+        }
+      }
+    },
+    "add-package.install.linking-cask-binary" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Binärdateien verknüpfen…"
+          }
+        }
+      }
+    },
+    "add-package.install.loading-dependencies" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abhängigkeiten werden geladen…"
+          }
+        }
+      }
+    },
+    "add-package.install.moving-cask-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verschiebe %@ in das Anwendungsverzeichnis…"
+          }
+        }
+      }
+    },
+    "add-package.install.ready" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abhängigkeitsbaum wird erstellt…"
+          }
+        }
+      }
+    },
+    "add-package.install.requires-sudo-password-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erweiterte Berechtigungen werden für die Installation von %@ benötigt"
+          }
+        }
+      }
+    },
+    "add-package.install.show-details" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details anzeigen"
+          }
+        }
+      }
+    },
+    "add-package.result.already-installed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bereits installiert"
+          }
+        }
+      }
+    },
+    "add-package.result.description-empty" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Beschreibung vorhanden"
+          }
+        }
+      }
+    },
+    "add-package.result.loading-compatibility" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade Kompatibilität..."
+          }
+        }
+      }
+    },
+    "add-package.result.loading-description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade Beschreibung…"
+          }
+        }
+      }
+    },
+    "add-package.result.loading-failed" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beschreibung konnte nicht geladen werden"
+          }
+        }
+      }
+    },
+    "add-package.result.not-optimized-for-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nicht für %@ optimiert"
+          }
+        }
+      }
+    },
+    "add-package.search.action" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche"
+          }
+        }
+      }
+    },
+    "add-package.search.prompt" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche nach Paketen…"
+          }
+        }
+      }
+    },
+    "add-package.search.results.casks" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gefundene Casks"
+          }
+        }
+      }
+    },
+    "add-package.search.results.formulae" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gefundene Formulae"
+          }
+        }
+      }
+    },
+    "add-package.searching-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche nach %@…"
+          }
+        }
+      }
+    },
+    "add-package.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installiere Pakete"
+          }
+        }
+      }
+    },
+    "add-package.top-casks" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Casks"
+          }
+        }
+      }
+    },
+    "add-package.top-formulae" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Formulae"
+          }
+        }
+      }
+    },
+    "add-package.top-packages.list-item-%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paket %lld"
+          }
+        }
+      }
+    },
+    "add-tap" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap hinzufügen"
+          }
+        }
+      }
+    },
+    "add-tap.action" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinzufügen"
+          }
+        }
+      }
+    },
+    "add-tap.complete-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ erfolgreich hinzugefügt"
+          }
+        }
+      }
+    },
+    "add-tap.complete.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es wurden keine Fehler festgestellt"
+          }
+        }
+      }
+    },
+    "add-tap.error.action" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erneut versuchen"
+          }
+        }
+      }
+    },
+    "add-tap.error.other-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beim Hinzufügen von %@ ist ein Fehler aufgetreten."
+          }
+        }
+      }
+    },
+    "add-tap.error.other.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versuche es später erneut"
+          }
+        }
+      }
+    },
+    "add-tap.error.repository-not-found-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ existiert nicht"
+          }
+        }
+      }
+    },
+    "add-tap.error.repository-not-found.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vergewissere dich, dass du den Namen richtig geschrieben hast"
+          }
+        }
+      }
+    },
+    "add-tap.progress-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Füge %@ hinzu..."
+          }
+        }
+      }
+    },
+    "add-tap.typing.error.empty" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap Name ist leer"
+          }
+        }
+      }
+    },
+    "add-tap.typing.error.empty.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast keine Tap Namen angegeben"
+          }
+        }
+      }
+    },
+    "add-tap.typing.error.slash" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap benötigt Schrägstrich"
+          }
+        }
+      }
+    },
+    "add-tap.typing.error.slash.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taps müssen immer ein Schrägstrich beinhalten"
+          }
+        }
+      }
+    },
+    "addlistitem.text.name:" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Projektname"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "addlistitem.text.notes" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bemerkungen"
+          }
+        }
+      }
+    },
+    "addnewlist.title.newlist" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Projekt hinzufügen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New project"
+          }
+        }
+      }
+    },
+    "addTap.step.initial" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erster Schritt"
+          }
+        }
+      }
+    },
+    "alert.error.text" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler"
+          }
+        }
+      }
+    },
+    "alert.error.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler"
+          }
+        }
+      }
+    },
+    "app-name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminders für MacOS"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminders for MacOS"
+          }
+        }
+      }
+    },
+    "app-section.github" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub"
+          }
+        }
+      }
+    },
+    "app-section.homebrew" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HomeBrew"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HomeBrew"
+          }
+        }
+      }
+    },
+    "app-section.main" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erinnerungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminders"
+          }
+        }
+      }
+    },
+    "Button" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knopf"
+          }
+        }
+      }
+    },
+    "button.cancel" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "button.done" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erledigt"
+          }
+        }
+      }
+    },
+    "button.login" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Login"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Login"
+          }
+        }
+      }
+    },
+    "button.ok" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "buttoncancel" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        }
+      }
+    },
+    "calendarbutton.datepicker.custom" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auswahl"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        }
+      }
+    },
+    "duedate.button.custom" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auswahl"
+          }
+        }
+      }
+    },
+    "duedate.button.today-\n%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Heute %@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "today %@"
+          }
+        }
+      }
+    },
+    "duedate.button.tomorrow-\n%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morgen%@"
+          }
+        }
+      }
+    },
+    "duedate.datepicker.custom" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auswählen"
+          }
+        }
+      }
+    },
+    "editlistitem.button.clear" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zurücksetzen"
+          }
+        }
+      }
+    },
+    "editlistitem.button.save" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Speichern"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        }
+      }
+    },
+    "editlistitem.text.color" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Farbe"
+          }
+        }
+      }
+    },
+    "editlistitem.text.comments" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kommentare"
+          }
+        }
+      }
+    },
+    "editlistitem.text.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beschreibung"
+          }
+        }
+      }
+    },
+    "editlistitem.text.duedate" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fällig"
+          }
+        }
+      }
+    },
+    "editlistitem.text.editlist" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bearbeite Projekt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit project"
+          }
+        }
+      }
+    },
+    "editlistitem.text.homepage" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Homepage"
+          }
+        }
+      }
+    },
+    "editlistitem.text.name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "error.canceledbyuser" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbruch durch Benutzer"
+          }
+        }
+      }
+    },
+    "error.valueismissing" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fehler: Fehlender Wert"
+          }
+        }
+      }
+    },
+    "errorview.text.retry" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versuchs nochmal"
+          }
+        }
+      }
+    },
+    "errorview.title.anerroroccured" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein Fehler trat auf"
+          }
+        }
+      }
+    },
+    "GitHub" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GitHub"
+          }
+        }
+      }
+    },
+    "githubfilter.text.language" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprache"
+          }
+        }
+      }
+    },
+    "githubfilter.text.textcontains" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text enthält"
+          }
+        }
+      }
+    },
+    "githublogin.button.signin" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LogIn"
+          }
+        }
+      }
+    },
+    "githublogin.text.githubsearch" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche"
+          }
+        }
+      }
+    },
+    "githublogin.text.password" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passwort"
+          }
+        }
+      }
+    },
+    "githublogin.text.username" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benutzername"
+          }
+        }
+      }
+    },
+    "githubrepos.button.makeitem" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ToDo erstellen"
+          }
+        }
+      }
+    },
+    "githubrepos.button.star" : {
+
+    },
+    "githubrepos.button.unstar" : {
+
+    },
+    "githubrepos.text.contributors" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mitwirkende"
+          }
+        }
+      }
+    },
+    "githubrepos.text.languages" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sprachen"
+          }
+        }
+      }
+    },
+    "githubrepos.text.nohomepage" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "keine Homepage"
+          }
+        }
+      }
+    },
+    "githubsidebar.button.login" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LogIn"
+          }
+        }
+      }
+    },
+    "githubsidebar.button.logout" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LogOut"
+          }
+        }
+      }
+    },
+    "githubsidebar.text.searchuser" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suche Benutzer"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search user"
+          }
+        }
+      }
+    },
+    "Hello, World!" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hallo, Welt!"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello, World!"
+          }
+        }
+      }
+    },
+    "homebrew.navigation.startpage" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übersicht"
+          }
+        }
+      }
+    },
+    "homebrew/core" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "homebrew/core"
+          }
+        }
+      }
+    },
+    "Loading top packages…" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade beliebte Pakete…"
+          }
+        }
+      }
+    },
+    "loadingview.text" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade..."
+          }
+        }
+      }
+    },
+    "logingithub.text.githubsearch" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Login GitHub Suche"
+          }
+        }
+      }
+    },
+    "Main Window" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hauptfenster"
+          }
+        }
+      }
+    },
+    "maintenance.step.deleting-cached-downloads" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leere Zwichengespeicherte Downloads…"
+          }
+        }
+      }
+    },
+    "maintenance.step.initial" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wird gestartet…"
+          }
+        }
+      }
+    },
+    "maintenance.step.purging-cache" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bereinige Zwischenspeicher…"
+          }
+        }
+      }
+    },
+    "maintenance.step.removing-orphans" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deinstalliere verwaiste Pakete…"
+          }
+        }
+      }
+    },
+    "maintenance.step.running-health-check" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starte Überprüfung…"
+          }
+        }
+      }
+    },
+    "maintenance.steps.downloads" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Downloads:"
+          }
+        }
+      }
+    },
+    "maintenance.steps.downloads.delete-cached-downloads" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leere zwischengespeicherte Downloads"
+          }
+        }
+      }
+    },
+    "maintenance.steps.downloads.purge-cache" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leere Homebrew Zwischenspeicher"
+          }
+        }
+      }
+    },
+    "maintenance.steps.other" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Andere:"
+          }
+        }
+      }
+    },
+    "maintenance.steps.other.health-check" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Überprüfung starten"
+          }
+        }
+      }
+    },
+    "maintenance.steps.packages" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakete:"
+          }
+        }
+      }
+    },
+    "maintenance.steps.packages.uninstall-orphans" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwaiste Pakete deinstallieren"
+          }
+        }
+      }
+    },
+    "maintenance.steps.start" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starten"
+          }
+        }
+      }
+    },
+    "maintenance.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wartung"
+          }
+        }
+      }
+    },
+    "mylists.addlist" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Projekt hinzufügen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add project"
+          }
+        }
+      }
+    },
+    "mylists.text.all" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle ToDos"
+          }
+        }
+      }
+    },
+    "mylists.text.nohomepage" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Homepage"
+          }
+        }
+      }
+    },
+    "mylists.text.welcome" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Willkommen bei Reminders für MacOS"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to Reminders for MacOS"
+          }
+        }
+      }
+    },
+    "mylists.title.mylists" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Projekte"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Projects"
+          }
+        }
+      }
+    },
+    "mylists.title.welcome" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Willkommen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome"
+          }
+        }
+      }
+    },
+    "navigation.about" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Über Reminders"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About Reminders"
+          }
+        }
+      }
+    },
+    "navigation.add-tap" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap hinzufügen"
+          }
+        }
+      }
+    },
+    "navigation.add-tap.help" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neuen Tap hinzufügen"
+          }
+        }
+      }
+    },
+    "navigation.install-package" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paket installieren"
+          }
+        }
+      }
+    },
+    "navigation.install-package.help" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ein neues Paket installieren"
+          }
+        }
+      }
+    },
+    "navigation.installed-packages.count-%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anzahl installierter Pakete: navigation.installed-packages.count-%lld"
+          }
+        }
+      }
+    },
+    "navigation.upgrade-packages" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakete aktualisieren"
+          }
+        }
+      }
+    },
+    "navigation.upgrade-packages.help" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installierte Pakete aktualisieren"
+          }
+        }
+      }
+    },
+    "notification.install-finished" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installation abgeschlossen"
+          }
+        }
+      }
+    },
+    "nutton.cancel" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbrechen"
+          }
+        }
+      }
+    },
+    "package-details.action.pin-version-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version anheften %@"
+          }
+        }
+      }
+    },
+    "package-details.action.uninstall-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deinstalliere %@"
+          }
+        }
+      }
+    },
+    "package-details.action.uninstall-deep-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lösche und bereinige %@"
+          }
+        }
+      }
+    },
+    "package-details.action.unpin-version-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@ lösen"
+          }
+        }
+      }
+    },
+    "package-details.caveats.available" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hat Vorbehalte 􀅴"
+          }
+        }
+      }
+    },
+    "package-details.caveats.collapse" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einklappen"
+          }
+        }
+      }
+    },
+    "package-details.caveats.expand" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Expandieren"
+          }
+        }
+      }
+    },
+    "package-details.caveats.help" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klicke, um die Vorbehalte zu sehen"
+          }
+        }
+      }
+    },
+    "package-details.contents.loading" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade Paketinfo…"
+          }
+        }
+      }
+    },
+    "package-details.dependants.dependency-of-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abhängigkeit von %@"
+          }
+        }
+      }
+    },
+    "package-details.dependants.loading" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade Abhängigkeit…"
+          }
+        }
+      }
+    },
+    "package-details.dependencies" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abhängigkeiten"
+          }
+        }
+      }
+    },
+    "package-details.dependencies.results.declaration" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deklarierter Typ"
+          }
+        }
+      }
+    },
+    "package-details.dependencies.results.declaration.direct" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Direkt"
+          }
+        }
+      }
+    },
+    "package-details.dependencies.results.declaration.indirect" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indirekt"
+          }
+        }
+      }
+    },
+    "package-details.dependencies.results.name" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LogIn"
+          }
+        }
+      }
+    },
+    "package-details.dependencies.results.version" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        }
+      }
+    },
+    "package-details.description-none-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ hat keine Beschreibung"
+          }
+        }
+      }
+    },
+    "package-details.homepage" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Homepage"
+          }
+        }
+      }
+    },
+    "package-details.info" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
+          }
+        }
+      }
+    },
+    "package-details.install-date" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installiert am"
+          }
+        }
+      }
+    },
+    "package-details.outdated" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veralte"
+          }
+        }
+      }
+    },
+    "package-details.pinned.help-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ wurde gepinnt. Es wird nicht aktualisiert."
+          }
+        }
+      }
+    },
+    "package-details.size" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Größe"
+          }
+        }
+      }
+    },
+    "package-details.size.help" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warum ist die Größe so klein?"
+          }
+        }
+      }
+    },
+    "package-details.size.help.body-1" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Casks werden nicht im selben Installationsverzeichnis wie Formulae installiert. Casks werden im Anwendungsverzeichnis installiert."
+          }
+        }
+      }
+    },
+    "package-details.size.help.body-2" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da Reminders keinen Zugriff auf dein Anwendungsverzeichnis hat, kann es nicht die Größe der eigentlichen App ermitteln, sondern nur die mit dem Cask verknüpften Metadaten."
+          }
+        }
+      }
+    },
+    "package-details.size.help.title" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warum ist die Größe so klein?"
+          }
+        }
+      }
+    },
+    "package-details.type" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Typ"
+          }
+        }
+      }
+    },
+    "package-details.type.cask" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cask"
+          }
+        }
+      }
+    },
+    "package-details.type.formula" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formula"
+          }
+        }
+      }
+    },
+    "packagedetail.text.tap" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap"
+          }
+        }
+      }
+    },
+    "Reminders for MacOS" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reminders für MacOS"
+          }
+        }
+      }
+    },
+    "reminders.login.button" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Einloggen"
+          }
+        }
+      }
+    },
+    "reminders.login.password" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passwort"
+          }
+        }
+      }
+    },
+    "reminders.login.username" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Benutzername"
+          }
+        }
+      }
+    },
+    "search.token.filter-casks" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cask"
+          }
+        }
+      }
+    },
+    "search.token.filter-formulae" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formula"
+          }
+        }
+      }
+    },
+    "search.token.filter-manually-installed-packages" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manuell installiert"
+          }
+        }
+      }
+    },
+    "search.token.filter-taps" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap"
+          }
+        }
+      }
+    },
+    "settings.discoverability.sorting.by-fewest-downloads" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "wenigsten Downloads"
+          }
+        }
+      }
+    },
+    "settings.discoverability.sorting.by-most-downloads" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "meisten Downloads"
+          }
+        }
+      }
+    },
+    "settings.discoverability.sorting.random" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zufall"
+          }
+        }
+      }
+    },
+    "settings.discoverability.time-span.month" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "letzten Monat"
+          }
+        }
+      }
+    },
+    "settings.discoverability.time-span.quarter-year" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "letztes Vierteljahr"
+          }
+        }
+      }
+    },
+    "settings.discoverability.time-span.year" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "letztes Jahr"
+          }
+        }
+      }
+    },
+    "sidebar.search.prompt" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installierte Pakete"
+          }
+        }
+      }
+    },
+    "sidebar.section.added-taps" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hinzugefügte Taps"
+          }
+        }
+      }
+    },
+    "sidebar.section.added-taps.contextmenu.remove-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lösche %@"
+          }
+        }
+      }
+    },
+    "sidebar.section.added-taps.remove.message" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versuche es später erneut, oder starte Reminders neu"
+          }
+        }
+      }
+    },
+    "sidebar.section.added-taps.remove.title-%@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ konnte nicht gelöscht werden"
+          }
+        }
+      }
+    },
+    "sidebar.section.all.contextmenu.tag-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag setzen"
+          }
+        }
+      }
+    },
+    "sidebar.section.all.contextmenu.untag-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag löschen"
+          }
+        }
+      }
+    },
+    "sidebar.section.installed-casks" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installierte Casks"
+          }
+        }
+      }
+    },
+    "sidebar.section.installed-casks.contextmenu.uninstall-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deinstalliere %@"
+          }
+        }
+      }
+    },
+    "sidebar.section.installed-formulae" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Installierte Formulae"
+          }
+        }
+      }
+    },
+    "sidebar.section.installed-formulae.contextmenu.uninstall-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deinstalliere %@"
+          }
+        }
+      }
+    },
+    "sidebar.section.installed-formulae.contextmenu.uninstall-deep-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lösche und bereinige %@"
+          }
+        }
+      }
+    },
+    "sidebar.section.navigation" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navigation"
+          }
+        }
+      }
+    },
+    "Start loading" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starte laden..."
+          }
+        }
+      }
+    },
+    "start-page.added-taps.count-%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anzahl Taps: %lld"
+          }
+        }
+      }
+    },
+    "start-page.added-taps.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taps bieten zusätzliche Pakete an"
+          }
+        }
+      }
+    },
+    "start-page.analytics.disabled" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Homebrew Analyse ist deaktiviert"
+          }
+        }
+      }
+    },
+    "start-page.analytics.disabled.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Homebrew sammelt keine Daten darüber wie du es nutzt"
+          }
+        }
+      }
+    },
+    "start-page.analytics.enabled" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Homebrew Analyse ist aktiviert"
+          }
+        }
+      }
+    },
+    "start-page.analytics.enabled.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Homebrew sammelt verschiedene anonymisierte Daten, z.B. welche Pakete du installiert hast"
+          }
+        }
+      }
+    },
+    "start-page.cached-downloads-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du hast %@ zwischengespeicherten Downloads"
+          }
+        }
+      }
+    },
+    "start-page.cached-downloads.action" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lösche zwischengespeicherte Downloads…"
+          }
+        }
+      }
+    },
+    "start-page.cached-downloads.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diese Dateien sind Überbleibsel von abgeschlossenen Paketinstallationen. Sie können gefahrlos entfernt werden."
+          }
+        }
+      }
+    },
+    "start-page.installed-casks.count-%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anzahl Cashs: %lld"
+          }
+        }
+      }
+    },
+    "start-page.installed-casks.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Casks sind Pakete, welche über eine Benutzeroberfläche verfügen"
+          }
+        }
+      }
+    },
+    "start-page.installed-formulae.count-%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anzahl Formular: %lld"
+          }
+        }
+      }
+    },
+    "start-page.installed-formulae.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formulae sind Pakete, die du über ein Terminal verwendest"
+          }
+        }
+      }
+    },
+    "start-page.loading" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakete werden geladen…"
+          }
+        }
+      }
+    },
+    "start-page.open-maintenance" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brew Wartung…"
+          }
+        }
+      }
+    },
+    "start-page.status" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        }
+      }
+    },
+    "start-page.update-incremental.package-count-%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anzahl Pakete: %lld"
+          }
+        }
+      }
+    },
+    "start-page.updated.action.deselect-all" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine auswählen"
+          }
+        }
+      }
+    },
+    "start-page.updated.action.select-all" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle auswählen"
+          }
+        }
+      }
+    },
+    "start-page.updates.action" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optionen"
+          }
+        }
+      }
+    },
+    "start-page.updates.count-%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anzahl %lld"
+          }
+        }
+      }
+    },
+    "start-page.updates.list" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisierungen"
+          }
+        }
+      }
+    },
+    "start-page.updates.loading" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisierungen laden"
+          }
+        }
+      }
+    },
+    "start-page.updates.notavailable" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Aktualisierungen verfügbar"
+          }
+        }
+      }
+    },
+    "tap-details.contents" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inhalt"
+          }
+        }
+      }
+    },
+    "tap-details.contents.casks-mostly" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hauptsächlich Casks"
+          }
+        }
+      }
+    },
+    "tap-details.contents.casks-only" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur Casks"
+          }
+        }
+      }
+    },
+    "tap-details.contents.formulae-mostly" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hauptsächlich Formulae"
+          }
+        }
+      }
+    },
+    "tap-details.contents.formulae-only" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur Formulae"
+          }
+        }
+      }
+    },
+    "tap-details.contents.none" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine"
+          }
+        }
+      }
+    },
+    "tap-details.homepage" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Homepage"
+          }
+        }
+      }
+    },
+    "tap-details.included-casks" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Casks enthalten"
+          }
+        }
+      }
+    },
+    "tap-details.included-formulae" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Formulae enthalten"
+          }
+        }
+      }
+    },
+    "tap-details.info" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
+          }
+        }
+      }
+    },
+    "tap-details.loading" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap Info laden…"
+          }
+        }
+      }
+    },
+    "tap-details.official-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ist ein offizieller Tap.\\nDie darin enthaltenen Pakete werden auf ihre Sicherheit hin überprüft."
+          }
+        }
+      }
+    },
+    "tap-details.package-count" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anzahl der Pakete"
+          }
+        }
+      }
+    },
+    "tap-details.remove-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entferne %@"
+          }
+        }
+      }
+    },
+    "test" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "test"
+          }
+        }
+      }
+    },
+    "Tomorrow \n %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Morgen %@"
+          }
+        }
+      }
+    },
+    "update-packages.detail-stage.backing-up" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back-up alte Version"
+          }
+        }
+      }
+    },
+    "update-packages.detail-stage.cleanup" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aufräumen..."
+          }
+        }
+      }
+    },
+    "update-packages.detail-stage.downloading" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Downloaden..."
+          }
+        }
+      }
+    },
+    "update-packages.detail-stage.linking" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neue Version verlinken..."
+          }
+        }
+      }
+    },
+    "update-packages.detail-stage.pouring" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updaten..."
+          }
+        }
+      }
+    },
+    "update-packages.error" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakete mit Fehlern aktualisiert"
+          }
+        }
+      }
+    },
+    "update-packages.error.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bei der Aktualisierung traten einige Fehler auf.\nWeitere Informationen findest du unten"
+          }
+        }
+      }
+    },
+    "update-packages.finished" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pakete erfolgreich aktualisert"
+          }
+        }
+      }
+    },
+    "update-packages.finished.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es wurden keine Fehler festgestellt"
+          }
+        }
+      }
+    },
+    "update-packages.incremental.finished" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ausgewählte Pakete erfolgreich aktualisiert"
+          }
+        }
+      }
+    },
+    "update-packages.incremental.update-in-progress-%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisiere %@…"
+          }
+        }
+      }
+    },
+    "update-packages.no-updates" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine Aktualisierungen verfügbar"
+          }
+        }
+      }
+    },
+    "update-packages.no-updates.description" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du bist auf dem neusten Stand"
+          }
+        }
+      }
+    },
+    "update-packages.updating.checking" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lade Aktualisierungen…"
+          }
+        }
+      }
+    },
+    "update-packages.updating.finished" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fertig"
+          }
+        }
+      }
+    },
+    "update-packages.updating.ready" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bereit"
+          }
+        }
+      }
+    },
+    "update-packages.updating.updating" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisiere Pakete…"
+          }
+        }
+      }
+    },
+    "update-packages.updating.updating-outdated-package" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktualisiere Paketzwischenspeicher"
+          }
+        }
+      }
+    },
+    "v. %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "v. %@"
+          }
+        }
+      }
+    },
+    "Waiting..." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warten..."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

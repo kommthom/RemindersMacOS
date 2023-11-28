@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "ED78FBEA-1971-43B7-A548-55D43A3112AF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE61F291-DD79-4E19-874D-97A213063C14"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RemindersMacOS/View Models/MyListsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "ViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DE61F291-DD79-4E19-874D-97A213063C14 - 153ead50e973067c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RemindersMacOS.MyListsView.ViewModel.myListsContextHasChanges(notification: __C.NSNotification) -&gt; ()"
+                  moduleName = "RemindersMacOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomas/GitHub/Basic-Reminders-App%20MVVM/RemindersMacOS/View%20Models/MyListsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "DE61F291-DD79-4E19-874D-97A213063C14 - 153ead50e973067c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RemindersMacOS.MyListsView.ViewModel.myListsContextHasChanges(notification: __C.NSNotification) -&gt; ()"
+                  moduleName = "RemindersMacOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thomas/GitHub/Basic-Reminders-App%20MVVM/RemindersMacOS/View%20Models/MyListsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0477AACB-DEFF-405D-BF93-2FFA48DB2B12"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RemindersMacOS/Presentation/RemindersApp/HomeBrewApp/HomeBrewCoordinatorView/HomeBrewPackagesView/InformationView/InformationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "load(brewData:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
