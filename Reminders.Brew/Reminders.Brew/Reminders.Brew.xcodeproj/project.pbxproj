@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E92174E32AFEAC0700D7B9AA /* Reminders_Brew.docc in Sources */ = {isa = PBXBuildFile; fileRef = E92174E22AFEAC0700D7B9AA /* Reminders_Brew.docc */; };
+		E92174E92AFEAC0700D7B9AA /* Reminders_Brew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92174DE2AFEAC0700D7B9AA /* Reminders_Brew.framework */; };
+		E92174EE2AFEAC0700D7B9AA /* Reminders_BrewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92174ED2AFEAC0700D7B9AA /* Reminders_BrewTests.swift */; };
+		E92174EF2AFEAC0700D7B9AA /* Reminders_Brew.h in Headers */ = {isa = PBXBuildFile; fileRef = E92174E12AFEAC0700D7B9AA /* Reminders_Brew.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E92175542AFEAF4C00D7B9AA /* ParseJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921750E2AFEAF4C00D7B9AA /* ParseJSON.swift */; };
+		E92175552AFEAF4C00D7B9AA /* BrewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921750F2AFEAF4C00D7B9AA /* BrewService.swift */; };
+		E92175562AFEAF4C00D7B9AA /* InstallPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92175102AFEAF4C00D7B9AA /* InstallPackage.swift */; };
+		E92175572AFEAF4C00D7B9AA /* FileManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92175112AFEAF4C00D7B9AA /* FileManagerService.swift */; };
+		E92175582AFEAF4C00D7B9AA /* GetTapsOfFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92175122AFEAF4C00D7B9AA /* GetTapsOfFolder.swift */; };
+		E92175592AFEAF4C00D7B9AA /* ShellOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92175132AFEAF4C00D7B9AA /* ShellOut.swift */; };
+		E921755A2AFEAF4C00D7B9AA /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92175142AFEAF4C00D7B9AA /* Shell.swift */; };
+		E921755B2AFEAF4C00D7B9AA /* GetOutdatedPackages.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92175152AFEAF4C00D7B9AA /* GetOutdatedPackages.swift */; };
+		E921755C2AFEAF4C00D7B9AA /* HomeBrewConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92175162AFEAF4C00D7B9AA /* HomeBrewConstants.swift */; };
+		E921755D2AFEAF4C00D7B9AA /* GetPackagesOfFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92175172AFEAF4C00D7B9AA /* GetPackagesOfFolder.swift */; };
+		E921755E2AFEAF4C00D7B9AA /* DownloadDataFromURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92175192AFEAF4C00D7B9AA /* DownloadDataFromURL.swift */; };
+		E921755F2AFEAF4C00D7B9AA /* GetProxySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921751A2AFEAF4C00D7B9AA /* GetProxySettings.swift */; };
+		E92175602AFEAF4C00D7B9AA /* HomeBrewWebRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921751C2AFEAF4C00D7B9AA /* HomeBrewWebRepository.swift */; };
+		E92175612AFEAF4C00D7B9AA /* HomeBrewShellRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921751D2AFEAF4C00D7B9AA /* HomeBrewShellRepository.swift */; };
+		E92175C42AFEAF7700D7B9AA /* SearchForPackageByID.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92175982AFEAF7700D7B9AA /* SearchForPackageByID.swift */; };
+		E92178072AFFDC1300D7B9AA /* Reminders_Domain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92178062AFFDC1300D7B9AA /* Reminders_Domain.framework */; };
+		E92178082AFFDC1300D7B9AA /* Reminders_Domain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E92178062AFFDC1300D7B9AA /* Reminders_Domain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E92178402B0021AB00D7B9AA /* GetTopFormulaeUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92178292B0021AB00D7B9AA /* GetTopFormulaeUC.swift */; };
+		E92178412B0021AB00D7B9AA /* AddTapUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921782A2B0021AB00D7B9AA /* AddTapUC.swift */; };
+		E92178422B0021AB00D7B9AA /* UninstallTapUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921782B2B0021AB00D7B9AA /* UninstallTapUC.swift */; };
+		E92178432B0021AB00D7B9AA /* UpdateOutdatedPackagesTrackerUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921782C2B0021AB00D7B9AA /* UpdateOutdatedPackagesTrackerUC.swift */; };
+		E92178442B0021AB00D7B9AA /* AddPackageUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921782D2B0021AB00D7B9AA /* AddPackageUC.swift */; };
+		E92178452B0021AB00D7B9AA /* GetSearchedPackagesUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921782E2B0021AB00D7B9AA /* GetSearchedPackagesUC.swift */; };
+		E92178462B0021AC00D7B9AA /* AreUpdatablePackagesAvailableUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921782F2B0021AB00D7B9AA /* AreUpdatablePackagesAvailableUC.swift */; };
+		E92178472B0021AC00D7B9AA /* GetBrewPackageDescriptionUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92178302B0021AB00D7B9AA /* GetBrewPackageDescriptionUC.swift */; };
+		E92178482B0021AC00D7B9AA /* GetTopCasksUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92178312B0021AB00D7B9AA /* GetTopCasksUC.swift */; };
+		E92178492B0021AC00D7B9AA /* RemoveOrphansUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92178322B0021AB00D7B9AA /* RemoveOrphansUC.swift */; };
+		E921784A2B0021AC00D7B9AA /* GetHomeBrewFormulaeUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92178332B0021AB00D7B9AA /* GetHomeBrewFormulaeUC.swift */; };
+		E921784B2B0021AC00D7B9AA /* UninstallPackageUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92178342B0021AB00D7B9AA /* UninstallPackageUC.swift */; };
+		E921784C2B0021AC00D7B9AA /* PurgeHomebrewCacheUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92178352B0021AB00D7B9AA /* PurgeHomebrewCacheUC.swift */; };
+		E921784D2B0021AC00D7B9AA /* PerformBrewHealthCheckUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92178362B0021AB00D7B9AA /* PerformBrewHealthCheckUC.swift */; };
+		E921784E2B0021AC00D7B9AA /* DeleteCachedDownloadsUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92178372B0021AB00D7B9AA /* DeleteCachedDownloadsUC.swift */; };
+		E921784F2B0021AC00D7B9AA /* UpdateOnePackageUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92178382B0021AB00D7B9AA /* UpdateOnePackageUC.swift */; };
+		E92178502B0021AC00D7B9AA /* GetBrewTapInfoUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92178392B0021AB00D7B9AA /* GetBrewTapInfoUC.swift */; };
+		E92178512B0021AC00D7B9AA /* GetBrewPackageInfoUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921783A2B0021AB00D7B9AA /* GetBrewPackageInfoUC.swift */; };
+		E92178522B0021AC00D7B9AA /* PinAndUnpinPackageUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921783B2B0021AB00D7B9AA /* PinAndUnpinPackageUC.swift */; };
+		E92178532B0021AC00D7B9AA /* UpdatePackagesUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921783C2B0021AB00D7B9AA /* UpdatePackagesUC.swift */; };
+		E92178542B0021AC00D7B9AA /* GetHomeBrewTapsUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921783D2B0021AB00D7B9AA /* GetHomeBrewTapsUC.swift */; };
+		E92178552B0021AC00D7B9AA /* GetOutdatedPackagesUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921783E2B0021AB00D7B9AA /* GetOutdatedPackagesUC.swift */; };
+		E92178562B0021AC00D7B9AA /* GetHomeBrewCasksUC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921783F2B0021AB00D7B9AA /* GetHomeBrewCasksUC.swift */; };
+		E92178D72B027E7D00D7B9AA /* PackageType+Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92178D62B027E7D00D7B9AA /* PackageType+Url.swift */; };
+		E92178DC2B04C1B100D7B9AA /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = E92178DB2B04C1B100D7B9AA /* SwiftyJSON */; };
+		E92179362B07F2C100D7B9AA /* DirectorySize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92179352B07F2C100D7B9AA /* DirectorySize.swift */; };
+		E92179382B0820AD00D7B9AA /* DeleteCachedDownloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92179372B0820AD00D7B9AA /* DeleteCachedDownloads.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E92174EA2AFEAC0700D7B9AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E92174D52AFEAC0700D7B9AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E92174DD2AFEAC0700D7B9AA;
+			remoteInfo = Reminders.Brew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E92178092AFFDC1300D7B9AA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E92178082AFFDC1300D7B9AA /* Reminders_Domain.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E92174DE2AFEAC0700D7B9AA /* Reminders_Brew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reminders_Brew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92174E12AFEAC0700D7B9AA /* Reminders_Brew.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reminders_Brew.h; sourceTree = "<group>"; };
+		E92174E22AFEAC0700D7B9AA /* Reminders_Brew.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Reminders_Brew.docc; sourceTree = "<group>"; };
+		E92174E82AFEAC0700D7B9AA /* Reminders.BrewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Reminders.BrewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92174ED2AFEAC0700D7B9AA /* Reminders_BrewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders_BrewTests.swift; sourceTree = "<group>"; };
+		E921750E2AFEAF4C00D7B9AA /* ParseJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseJSON.swift; sourceTree = "<group>"; };
+		E921750F2AFEAF4C00D7B9AA /* BrewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrewService.swift; sourceTree = "<group>"; };
+		E92175102AFEAF4C00D7B9AA /* InstallPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallPackage.swift; sourceTree = "<group>"; };
+		E92175112AFEAF4C00D7B9AA /* FileManagerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerService.swift; sourceTree = "<group>"; };
+		E92175122AFEAF4C00D7B9AA /* GetTapsOfFolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTapsOfFolder.swift; sourceTree = "<group>"; };
+		E92175132AFEAF4C00D7B9AA /* ShellOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellOut.swift; sourceTree = "<group>"; };
+		E92175142AFEAF4C00D7B9AA /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		E92175152AFEAF4C00D7B9AA /* GetOutdatedPackages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOutdatedPackages.swift; sourceTree = "<group>"; };
+		E92175162AFEAF4C00D7B9AA /* HomeBrewConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBrewConstants.swift; sourceTree = "<group>"; };
+		E92175172AFEAF4C00D7B9AA /* GetPackagesOfFolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPackagesOfFolder.swift; sourceTree = "<group>"; };
+		E92175192AFEAF4C00D7B9AA /* DownloadDataFromURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadDataFromURL.swift; sourceTree = "<group>"; };
+		E921751A2AFEAF4C00D7B9AA /* GetProxySettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetProxySettings.swift; sourceTree = "<group>"; };
+		E921751C2AFEAF4C00D7B9AA /* HomeBrewWebRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBrewWebRepository.swift; sourceTree = "<group>"; };
+		E921751D2AFEAF4C00D7B9AA /* HomeBrewShellRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBrewShellRepository.swift; sourceTree = "<group>"; };
+		E92175982AFEAF7700D7B9AA /* SearchForPackageByID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchForPackageByID.swift; sourceTree = "<group>"; };
+		E92178062AFFDC1300D7B9AA /* Reminders_Domain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Reminders_Domain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92178292B0021AB00D7B9AA /* GetTopFormulaeUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTopFormulaeUC.swift; sourceTree = "<group>"; };
+		E921782A2B0021AB00D7B9AA /* AddTapUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTapUC.swift; sourceTree = "<group>"; };
+		E921782B2B0021AB00D7B9AA /* UninstallTapUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UninstallTapUC.swift; sourceTree = "<group>"; };
+		E921782C2B0021AB00D7B9AA /* UpdateOutdatedPackagesTrackerUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateOutdatedPackagesTrackerUC.swift; sourceTree = "<group>"; };
+		E921782D2B0021AB00D7B9AA /* AddPackageUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPackageUC.swift; sourceTree = "<group>"; };
+		E921782E2B0021AB00D7B9AA /* GetSearchedPackagesUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSearchedPackagesUC.swift; sourceTree = "<group>"; };
+		E921782F2B0021AB00D7B9AA /* AreUpdatablePackagesAvailableUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreUpdatablePackagesAvailableUC.swift; sourceTree = "<group>"; };
+		E92178302B0021AB00D7B9AA /* GetBrewPackageDescriptionUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBrewPackageDescriptionUC.swift; sourceTree = "<group>"; };
+		E92178312B0021AB00D7B9AA /* GetTopCasksUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTopCasksUC.swift; sourceTree = "<group>"; };
+		E92178322B0021AB00D7B9AA /* RemoveOrphansUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveOrphansUC.swift; sourceTree = "<group>"; };
+		E92178332B0021AB00D7B9AA /* GetHomeBrewFormulaeUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetHomeBrewFormulaeUC.swift; sourceTree = "<group>"; };
+		E92178342B0021AB00D7B9AA /* UninstallPackageUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UninstallPackageUC.swift; sourceTree = "<group>"; };
+		E92178352B0021AB00D7B9AA /* PurgeHomebrewCacheUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurgeHomebrewCacheUC.swift; sourceTree = "<group>"; };
+		E92178362B0021AB00D7B9AA /* PerformBrewHealthCheckUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerformBrewHealthCheckUC.swift; sourceTree = "<group>"; };
+		E92178372B0021AB00D7B9AA /* DeleteCachedDownloadsUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteCachedDownloadsUC.swift; sourceTree = "<group>"; };
+		E92178382B0021AB00D7B9AA /* UpdateOnePackageUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateOnePackageUC.swift; sourceTree = "<group>"; };
+		E92178392B0021AB00D7B9AA /* GetBrewTapInfoUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBrewTapInfoUC.swift; sourceTree = "<group>"; };
+		E921783A2B0021AB00D7B9AA /* GetBrewPackageInfoUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetBrewPackageInfoUC.swift; sourceTree = "<group>"; };
+		E921783B2B0021AB00D7B9AA /* PinAndUnpinPackageUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinAndUnpinPackageUC.swift; sourceTree = "<group>"; };
+		E921783C2B0021AB00D7B9AA /* UpdatePackagesUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePackagesUC.swift; sourceTree = "<group>"; };
+		E921783D2B0021AB00D7B9AA /* GetHomeBrewTapsUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetHomeBrewTapsUC.swift; sourceTree = "<group>"; };
+		E921783E2B0021AB00D7B9AA /* GetOutdatedPackagesUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetOutdatedPackagesUC.swift; sourceTree = "<group>"; };
+		E921783F2B0021AB00D7B9AA /* GetHomeBrewCasksUC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetHomeBrewCasksUC.swift; sourceTree = "<group>"; };
+		E92178D62B027E7D00D7B9AA /* PackageType+Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PackageType+Url.swift"; sourceTree = "<group>"; };
+		E92179352B07F2C100D7B9AA /* DirectorySize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectorySize.swift; sourceTree = "<group>"; };
+		E92179372B0820AD00D7B9AA /* DeleteCachedDownloads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCachedDownloads.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E92174DB2AFEAC0700D7B9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92178DC2B04C1B100D7B9AA /* SwiftyJSON in Frameworks */,
+				E92178072AFFDC1300D7B9AA /* Reminders_Domain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92174E52AFEAC0700D7B9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92174E92AFEAC0700D7B9AA /* Reminders_Brew.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E92174D42AFEAC0700D7B9AA = {
+			isa = PBXGroup;
+			children = (
+				E92174E02AFEAC0700D7B9AA /* Reminders.Brew */,
+				E92174EC2AFEAC0700D7B9AA /* Reminders.BrewTests */,
+				E92174DF2AFEAC0700D7B9AA /* Products */,
+				E92178052AFFDC1300D7B9AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E92174DF2AFEAC0700D7B9AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E92174DE2AFEAC0700D7B9AA /* Reminders_Brew.framework */,
+				E92174E82AFEAC0700D7B9AA /* Reminders.BrewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E92174E02AFEAC0700D7B9AA /* Reminders.Brew */ = {
+			isa = PBXGroup;
+			children = (
+				E92178D42B027E3500D7B9AA /* Models */,
+				E92178282B00211100D7B9AA /* UseCases */,
+				E921750B2AFEAF4C00D7B9AA /* Data */,
+				E92175962AFEAF7700D7B9AA /* HomeBrewLogic */,
+				E92174E12AFEAC0700D7B9AA /* Reminders_Brew.h */,
+				E92174E22AFEAC0700D7B9AA /* Reminders_Brew.docc */,
+			);
+			path = Reminders.Brew;
+			sourceTree = "<group>";
+		};
+		E92174EC2AFEAC0700D7B9AA /* Reminders.BrewTests */ = {
+			isa = PBXGroup;
+			children = (
+				E92174ED2AFEAC0700D7B9AA /* Reminders_BrewTests.swift */,
+			);
+			path = Reminders.BrewTests;
+			sourceTree = "<group>";
+		};
+		E921750B2AFEAF4C00D7B9AA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E921750C2AFEAF4C00D7B9AA /* DataSource */,
+				E921751B2AFEAF4C00D7B9AA /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E921750C2AFEAF4C00D7B9AA /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				E921750D2AFEAF4C00D7B9AA /* Local */,
+				E92175182AFEAF4C00D7B9AA /* Remote */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		E921750D2AFEAF4C00D7B9AA /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				E921750E2AFEAF4C00D7B9AA /* ParseJSON.swift */,
+				E921750F2AFEAF4C00D7B9AA /* BrewService.swift */,
+				E92175102AFEAF4C00D7B9AA /* InstallPackage.swift */,
+				E92175112AFEAF4C00D7B9AA /* FileManagerService.swift */,
+				E92175122AFEAF4C00D7B9AA /* GetTapsOfFolder.swift */,
+				E92175132AFEAF4C00D7B9AA /* ShellOut.swift */,
+				E92175142AFEAF4C00D7B9AA /* Shell.swift */,
+				E92175152AFEAF4C00D7B9AA /* GetOutdatedPackages.swift */,
+				E92175162AFEAF4C00D7B9AA /* HomeBrewConstants.swift */,
+				E92175172AFEAF4C00D7B9AA /* GetPackagesOfFolder.swift */,
+				E92179352B07F2C100D7B9AA /* DirectorySize.swift */,
+				E92179372B0820AD00D7B9AA /* DeleteCachedDownloads.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		E92175182AFEAF4C00D7B9AA /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				E92175192AFEAF4C00D7B9AA /* DownloadDataFromURL.swift */,
+				E921751A2AFEAF4C00D7B9AA /* GetProxySettings.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		E921751B2AFEAF4C00D7B9AA /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E921751C2AFEAF4C00D7B9AA /* HomeBrewWebRepository.swift */,
+				E921751D2AFEAF4C00D7B9AA /* HomeBrewShellRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E92175962AFEAF7700D7B9AA /* HomeBrewLogic */ = {
+			isa = PBXGroup;
+			children = (
+				E92175982AFEAF7700D7B9AA /* SearchForPackageByID.swift */,
+			);
+			name = HomeBrewLogic;
+			path = Reminders.Brew/HomeBrewLogic;
+			sourceTree = SOURCE_ROOT;
+		};
+		E92178052AFFDC1300D7B9AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E92178062AFFDC1300D7B9AA /* Reminders_Domain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E92178282B00211100D7B9AA /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				E921782D2B0021AB00D7B9AA /* AddPackageUC.swift */,
+				E921782A2B0021AB00D7B9AA /* AddTapUC.swift */,
+				E921782F2B0021AB00D7B9AA /* AreUpdatablePackagesAvailableUC.swift */,
+				E92178372B0021AB00D7B9AA /* DeleteCachedDownloadsUC.swift */,
+				E92178302B0021AB00D7B9AA /* GetBrewPackageDescriptionUC.swift */,
+				E921783A2B0021AB00D7B9AA /* GetBrewPackageInfoUC.swift */,
+				E92178392B0021AB00D7B9AA /* GetBrewTapInfoUC.swift */,
+				E921783F2B0021AB00D7B9AA /* GetHomeBrewCasksUC.swift */,
+				E92178332B0021AB00D7B9AA /* GetHomeBrewFormulaeUC.swift */,
+				E921783D2B0021AB00D7B9AA /* GetHomeBrewTapsUC.swift */,
+				E921783E2B0021AB00D7B9AA /* GetOutdatedPackagesUC.swift */,
+				E921782E2B0021AB00D7B9AA /* GetSearchedPackagesUC.swift */,
+				E92178312B0021AB00D7B9AA /* GetTopCasksUC.swift */,
+				E92178292B0021AB00D7B9AA /* GetTopFormulaeUC.swift */,
+				E92178362B0021AB00D7B9AA /* PerformBrewHealthCheckUC.swift */,
+				E921783B2B0021AB00D7B9AA /* PinAndUnpinPackageUC.swift */,
+				E92178352B0021AB00D7B9AA /* PurgeHomebrewCacheUC.swift */,
+				E92178322B0021AB00D7B9AA /* RemoveOrphansUC.swift */,
+				E92178342B0021AB00D7B9AA /* UninstallPackageUC.swift */,
+				E921782B2B0021AB00D7B9AA /* UninstallTapUC.swift */,
+				E92178382B0021AB00D7B9AA /* UpdateOnePackageUC.swift */,
+				E921782C2B0021AB00D7B9AA /* UpdateOutdatedPackagesTrackerUC.swift */,
+				E921783C2B0021AB00D7B9AA /* UpdatePackagesUC.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		E92178D42B027E3500D7B9AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E92178D52B027E4600D7B9AA /* Enum */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E92178D52B027E4600D7B9AA /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				E92178D62B027E7D00D7B9AA /* PackageType+Url.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E92174D92AFEAC0700D7B9AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92174EF2AFEAC0700D7B9AA /* Reminders_Brew.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E92174DD2AFEAC0700D7B9AA /* Reminders.Brew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92174F22AFEAC0700D7B9AA /* Build configuration list for PBXNativeTarget "Reminders.Brew" */;
+			buildPhases = (
+				E92174D92AFEAC0700D7B9AA /* Headers */,
+				E92174DA2AFEAC0700D7B9AA /* Sources */,
+				E92174DB2AFEAC0700D7B9AA /* Frameworks */,
+				E92174DC2AFEAC0700D7B9AA /* Resources */,
+				E92178092AFFDC1300D7B9AA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reminders.Brew;
+			packageProductDependencies = (
+				E92178DB2B04C1B100D7B9AA /* SwiftyJSON */,
+			);
+			productName = Reminders.Brew;
+			productReference = E92174DE2AFEAC0700D7B9AA /* Reminders_Brew.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E92174E72AFEAC0700D7B9AA /* Reminders.BrewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E92174F52AFEAC0700D7B9AA /* Build configuration list for PBXNativeTarget "Reminders.BrewTests" */;
+			buildPhases = (
+				E92174E42AFEAC0700D7B9AA /* Sources */,
+				E92174E52AFEAC0700D7B9AA /* Frameworks */,
+				E92174E62AFEAC0700D7B9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E92174EB2AFEAC0700D7B9AA /* PBXTargetDependency */,
+			);
+			name = Reminders.BrewTests;
+			productName = Reminders.BrewTests;
+			productReference = E92174E82AFEAC0700D7B9AA /* Reminders.BrewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E92174D52AFEAC0700D7B9AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E92174DD2AFEAC0700D7B9AA = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E92174E72AFEAC0700D7B9AA = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E92174D82AFEAC0700D7B9AA /* Build configuration list for PBXProject "Reminders.Brew" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E92174D42AFEAC0700D7B9AA;
+			packageReferences = (
+				E92178DA2B04C1B100D7B9AA /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = E92174DF2AFEAC0700D7B9AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E92174DD2AFEAC0700D7B9AA /* Reminders.Brew */,
+				E92174E72AFEAC0700D7B9AA /* Reminders.BrewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E92174DC2AFEAC0700D7B9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92174E62AFEAC0700D7B9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E92174DA2AFEAC0700D7B9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E921755F2AFEAF4C00D7B9AA /* GetProxySettings.swift in Sources */,
+				E921755C2AFEAF4C00D7B9AA /* HomeBrewConstants.swift in Sources */,
+				E921784D2B0021AC00D7B9AA /* PerformBrewHealthCheckUC.swift in Sources */,
+				E92178552B0021AC00D7B9AA /* GetOutdatedPackagesUC.swift in Sources */,
+				E921755D2AFEAF4C00D7B9AA /* GetPackagesOfFolder.swift in Sources */,
+				E92175572AFEAF4C00D7B9AA /* FileManagerService.swift in Sources */,
+				E92178522B0021AC00D7B9AA /* PinAndUnpinPackageUC.swift in Sources */,
+				E92178482B0021AC00D7B9AA /* GetTopCasksUC.swift in Sources */,
+				E921784E2B0021AC00D7B9AA /* DeleteCachedDownloadsUC.swift in Sources */,
+				E92178432B0021AB00D7B9AA /* UpdateOutdatedPackagesTrackerUC.swift in Sources */,
+				E92175582AFEAF4C00D7B9AA /* GetTapsOfFolder.swift in Sources */,
+				E92178462B0021AC00D7B9AA /* AreUpdatablePackagesAvailableUC.swift in Sources */,
+				E92178452B0021AB00D7B9AA /* GetSearchedPackagesUC.swift in Sources */,
+				E92178412B0021AB00D7B9AA /* AddTapUC.swift in Sources */,
+				E921784C2B0021AC00D7B9AA /* PurgeHomebrewCacheUC.swift in Sources */,
+				E92174E32AFEAC0700D7B9AA /* Reminders_Brew.docc in Sources */,
+				E92175552AFEAF4C00D7B9AA /* BrewService.swift in Sources */,
+				E921784A2B0021AC00D7B9AA /* GetHomeBrewFormulaeUC.swift in Sources */,
+				E921784B2B0021AC00D7B9AA /* UninstallPackageUC.swift in Sources */,
+				E92175C42AFEAF7700D7B9AA /* SearchForPackageByID.swift in Sources */,
+				E92178D72B027E7D00D7B9AA /* PackageType+Url.swift in Sources */,
+				E92175602AFEAF4C00D7B9AA /* HomeBrewWebRepository.swift in Sources */,
+				E92178502B0021AC00D7B9AA /* GetBrewTapInfoUC.swift in Sources */,
+				E92178542B0021AC00D7B9AA /* GetHomeBrewTapsUC.swift in Sources */,
+				E92175592AFEAF4C00D7B9AA /* ShellOut.swift in Sources */,
+				E92178512B0021AC00D7B9AA /* GetBrewPackageInfoUC.swift in Sources */,
+				E92178532B0021AC00D7B9AA /* UpdatePackagesUC.swift in Sources */,
+				E92178402B0021AB00D7B9AA /* GetTopFormulaeUC.swift in Sources */,
+				E92178422B0021AB00D7B9AA /* UninstallTapUC.swift in Sources */,
+				E92175562AFEAF4C00D7B9AA /* InstallPackage.swift in Sources */,
+				E921755A2AFEAF4C00D7B9AA /* Shell.swift in Sources */,
+				E92179362B07F2C100D7B9AA /* DirectorySize.swift in Sources */,
+				E92179382B0820AD00D7B9AA /* DeleteCachedDownloads.swift in Sources */,
+				E921755E2AFEAF4C00D7B9AA /* DownloadDataFromURL.swift in Sources */,
+				E92178562B0021AC00D7B9AA /* GetHomeBrewCasksUC.swift in Sources */,
+				E92175612AFEAF4C00D7B9AA /* HomeBrewShellRepository.swift in Sources */,
+				E92178492B0021AC00D7B9AA /* RemoveOrphansUC.swift in Sources */,
+				E92178472B0021AC00D7B9AA /* GetBrewPackageDescriptionUC.swift in Sources */,
+				E921784F2B0021AC00D7B9AA /* UpdateOnePackageUC.swift in Sources */,
+				E92178442B0021AB00D7B9AA /* AddPackageUC.swift in Sources */,
+				E921755B2AFEAF4C00D7B9AA /* GetOutdatedPackages.swift in Sources */,
+				E92175542AFEAF4C00D7B9AA /* ParseJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E92174E42AFEAC0700D7B9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92174EE2AFEAC0700D7B9AA /* Reminders_BrewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E92174EB2AFEAC0700D7B9AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E92174DD2AFEAC0700D7B9AA /* Reminders.Brew */;
+			targetProxy = E92174EA2AFEAC0700D7B9AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E92174F02AFEAC0700D7B9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E92174F12AFEAC0700D7B9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E92174F32AFEAC0700D7B9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6N3X54T62H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "tb.Reminders-Brew";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E92174F42AFEAC0700D7B9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6N3X54T62H;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "tb.Reminders-Brew";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E92174F62AFEAC0700D7B9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 6N3X54T62H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tb.Reminders-BrewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E92174F72AFEAC0700D7B9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 6N3X54T62H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "tb.Reminders-BrewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E92174D82AFEAC0700D7B9AA /* Build configuration list for PBXProject "Reminders.Brew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92174F02AFEAC0700D7B9AA /* Debug */,
+				E92174F12AFEAC0700D7B9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92174F22AFEAC0700D7B9AA /* Build configuration list for PBXNativeTarget "Reminders.Brew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92174F32AFEAC0700D7B9AA /* Debug */,
+				E92174F42AFEAC0700D7B9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E92174F52AFEAC0700D7B9AA /* Build configuration list for PBXNativeTarget "Reminders.BrewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92174F62AFEAC0700D7B9AA /* Debug */,
+				E92174F72AFEAC0700D7B9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E92178DA2B04C1B100D7B9AA /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E92178DB2B04C1B100D7B9AA /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E92178DA2B04C1B100D7B9AA /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E92174D52AFEAC0700D7B9AA /* Project object */;
+}
